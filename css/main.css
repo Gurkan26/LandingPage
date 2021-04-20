@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+html{
+    font-family:"Open Sans",sans-serif;
+}
+#navbar{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
+}
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+#navbar ul li a{
+    padding: 0.5rem;
+}
+#navbar ul li a:hover{
+    background: #336ea2;
+    border-radius: 4px;
+}
+#home
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+padding: 2rem;
+border-bottom: 1px solid grey ;
+}
+#home img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+#home .name h2{
+    margin-bottom: 0.75rem;
+
+}
+#home .name p{
+    opacity: 0.6;
+    font-style: italic;
+}
+#home a{
+    margin-top: 1.25rem;
+    background: #336ea2;
+    padding: 0.8rem 3rem;
+    border-radius: 8px;
+    letter-spacing: 0.5px;
+}
+#home a:hover{
+    color: #336ea2;
+    background: #fff;
+    border: 0.5px solid#336ea2;
+}
+.btn-block{
+    width:100%
+}
+/*Training*/
+#training{
+    color: white;
+    padding: 1rem;
+}
+#training .items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#training .items .item{
+   width: 33%;
+   text-align: center;
+   padding: 0.5rem;
+}
+#training .items .item:hover{
+   color: rebeccapurple;
+   opacity: 0.7;
+}
+
+#courses{
+    color: #333;
+    padding: 1rem;
+}
+.courses{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.courses .course{
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+
+}
+.courses .course .course-image {
+    margin-right: 0.5rem;
+    position: relative;
+    
+}
+.courses .course .course-image img{
+    max-width: 75%;
+    height: auto;
+    border-radius: 20px;
+}
+.courses .course .course-image span{
+    background-color: red;
+    padding: 0.25rem;
+    color:white;
+    border-radius: 4px;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.courses .course .course-info .title{
+    letter-spacing: 1.2px;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+    opacity: 0.6;
+}
+.courses .course .course-info .description{
+    letter-spacing: 1.2px;
+    font-weight: 500;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-style: italic;
+}
+.courses .course .course-info .instructor{
+    letter-spacing: 1.2px;
+    font-weight: 500;
+    opacity: 1;
+    color:#336ea2;
+    
+}
+.courses .course .course-info .rating{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+#contact{
+    color: white;
+    padding: 1rem;
+}
+#contact .contact-form{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+#contact .contact-form ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: 1rem;
+    align-self: center;
+}
+#contact .contact-form ul li a{
+    padding: 1rem;
+    font-size: 2rem;
+}
+#contact .contact-form ul li a:hover{
+  opacity: 0.8;
+}
